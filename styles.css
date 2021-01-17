@@ -1,0 +1,181 @@
+body {
+    font-family: "Roboto", sans-serif; 
+    color: #757575;   
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1,192;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,142;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+
+.contact-mail,
+.contact-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,142;
+    letter-spacing: 0.02em;
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+    color: #2196F3;
+}
+
+.contact-tel:hover,
+.contact-tel:focus {
+    color: #2196F3;
+}
+
+.hero-name {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,363;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #FFFFFF */;
+}
+
+.order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,875;
+    letter-spacing: 0.06em;
+    /* color: #FFFFFF */;
+}
+
+.advantages-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.advantages-name-about {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,714;
+    letter-spacing: 0.03em;
+}
+
+.what-we-do-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,167;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-about {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,167;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,188;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-employee-position {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1,188;
+letter-spacing: 0.03em;
+}
+
+.button-all,
+.button-web,
+.button-app,
+.button-design,
+.button-marketing {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,625;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.button-all:hover,
+.button-all:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.button-web:hover,
+.button-web:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.button-app:hover,
+.button-app:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.button-design:hover,
+.button-design:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.button-marketing:hover,
+.button-marketing:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.projects-list-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2,0;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.projects-list-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,875;
+    letter-spacing: 0.03em;
+}
+
+.footer-contact-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,714;
+    letter-spacing: 0.03em;
+    /* color: #FFFFFF */;
+}
+
+.footer-contact-mail,
+.footer-contact-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
