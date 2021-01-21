@@ -43,24 +43,26 @@ body {
     color: var(--title-text-color);
 }
 
+.menu a{
+    text-decoration: none;
+}
+
 .menu-link:hover,
 .menu-link:focus {
     color: var(--accent-color);
 }
 
-.menu-link .link,
-.contact-mail,
-.contact-tel a{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,142;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
-
 .contact-mail:hover,
 .contact-mail:focus {
     color: var(--accent-color);
+}
+
+.contact-mail a{
+    text-decoration: none;
+}
+
+.contact-tel a{
+    text-decoration: none;
 }
 
 .contact-tel:hover,
@@ -92,7 +94,7 @@ body {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
 }
 
 .advantages-name {
@@ -223,6 +225,14 @@ ul {
     letter-spacing: 0.03em;
     color: var(--footer-contact-color);
 }
+
+.footer-contact-mail a{
+    text-decoration: none;
+}
+
+.footer-contact-tel a{
+    text-decoration: none;
+}  
 
 .footer {
     background: var(--footer-hero-bg-color);
