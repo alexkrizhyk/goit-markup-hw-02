@@ -18,10 +18,31 @@
 }
 
 
+
+.contact-mail a{
+    text-decoration: none;
+}
+
+.contact-tel a{
+    text-decoration: none;
+}
+
+
+
 body {
     font-family: "Roboto", sans-serif; 
-    color: var(--text-color);   
+    color: var(--text-color);
 }
+
+.menu a{
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+  }
+
+
 
 .logo {
     font-family: Raleway;
@@ -43,10 +64,6 @@ body {
     color: var(--title-text-color);
 }
 
-.menu a{
-    text-decoration: none;
-}
-
 .menu-link:hover,
 .menu-link:focus {
     color: var(--accent-color);
@@ -57,13 +74,7 @@ body {
     color: var(--accent-color);
 }
 
-.contact-mail a{
-    text-decoration: none;
-}
 
-.contact-tel a{
-    text-decoration: none;
-}
 
 .contact-tel:hover,
 .contact-tel:focus {
@@ -91,10 +102,6 @@ body {
     letter-spacing: 0.06em;
     color: var(--white-text-color);
     background-color: var(--accent-color) 
-}
-
-ul {
-    list-style-type: none;
 }
 
 .advantages-name {
@@ -203,9 +210,6 @@ ul {
     line-height: 1,875;
     letter-spacing: 0.03em;
 }
-.list {
-    list-style: none;
-}
 
 .footer-contact-address {
     font-style: normal;
@@ -216,8 +220,7 @@ ul {
     color: var(--white-text-color);
 }
 
-.footer-contact-mail,
-.footer-contact-tel {
+.footer-contact {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -226,13 +229,15 @@ ul {
     color: var(--footer-contact-color);
 }
 
-.footer-contact-mail a{
+.footer-mail a{
     text-decoration: none;
+    font-style: normal;
 }
 
-.footer-contact-tel a{
+.footer-tel a{
     text-decoration: none;
-}  
+    font-style: normal;
+}
 
 .footer {
     background: var(--footer-hero-bg-color);
