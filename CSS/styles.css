@@ -17,16 +17,29 @@
     --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
 
-
-
-.contact-mail a{
-    text-decoration: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
-.contact-tel a{
-    text-decoration: none;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
 
 
 body {
@@ -34,34 +47,33 @@ body {
     color: var(--text-color);
 }
 
-.menu a{
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-  }
-
-
-
 .logo {
     font-family: Raleway;
     font-size: 26px;
     line-height: 1,192;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    text-decoration: none;
 }
 .logo-top {
     color: var(--title-text-color);
 }
 
-.menu {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,142;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
+.menu-link {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,142;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+
+.link {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--text-color);
 }
 
 .menu-link:hover,
@@ -69,12 +81,14 @@ body {
     color: var(--accent-color);
 }
 
+.current {
+    color: var(--accent-color);
+}
+
 .contact-mail:hover,
 .contact-mail:focus {
     color: var(--accent-color);
 }
-
-
 
 .contact-tel:hover,
 .contact-tel:focus {
@@ -218,25 +232,6 @@ body {
     line-height: 1,714;
     letter-spacing: 0.03em;
     color: var(--white-text-color);
-}
-
-.footer-contact {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1,714;
-    letter-spacing: 0.03em;
-    color: var(--footer-contact-color);
-}
-
-.footer-mail a{
-    text-decoration: none;
-    font-style: normal;
-}
-
-.footer-tel a{
-    text-decoration: none;
-    font-style: normal;
 }
 
 .footer {
