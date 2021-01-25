@@ -68,11 +68,6 @@ color: var(--title-text-color);
 }
 
 .link {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
 color: var(--text-color);
 }
 
@@ -181,29 +176,13 @@ color: var(--text-color);
 }
 
 .button-all:hover,
-.button-all:focus {
-    background-color:var(--accent-color);
-    color: var(--white-text-color);
-}
-
+.button-all:focus,
 .button-web:hover,
-.button-web:focus {
-    background-color:var(--accent-color);
-    color: var(--white-text-color);
-}
-
+.button-web:focus,
 .button-app:hover,
-.button-app:focus {
-    background-color:var(--accent-color);
-    color: var(--white-text-color);
-}
-
+.button-app:focus,
 .button-design:hover,
-.button-design:focus {
-    background-color:var(--accent-color);
-    color: var(--white-text-color);
-}
-
+.button-design:focus,
 .button-marketing:hover,
 .button-marketing:focus {
     background-color:var(--accent-color);
